@@ -1,6 +1,8 @@
 # daru
 A script to easily set up a terminal that aims to be at least better than the default.
 
+![image](https://github.com/user-attachments/assets/d9d6613d-34f8-4d49-b67a-d9a113cfb567)
+
 ## Installation
 DO NOT EXECUTE anything found on this page unless you understand what it does and you are sure that it does only what you want it to do.
 
