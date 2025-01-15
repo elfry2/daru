@@ -10,7 +10,7 @@ To install daru, on most Linux distributions it should suffice to execute
 ```bash
 git clone https://github.com/elfry2/daru
 cd daru
-./main
+./install.sh
 ```
 
 # Usage
