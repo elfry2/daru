@@ -5,15 +5,19 @@ printf "\nInstalling zsh...\n"
 sudo apt install -y zsh
 sudo pacman -Syu --noconfirm zsh
 
-# Clone Z Shell Launchpad to home directory.
-mv ~/.zshrc ~/.zshrc-backup
 printf "\nInstalling zsh configuration...\n"
+
+# Clone Z Shell Launchpad to home directory.
+mv -v ~/.zshrc ~/.zshrc-backup-$(date +%s)
 git clone https://github.com/marlonrichert/zsh-launchpad.git
 rm -rvf zsh-launchpad/.git
 rm -rvf zsh-launchpad/README.md
 rm -rvf zsh-launchpad/LICENSE
 cp -rv zsh-launchpad/. ~
 rm -rvf zsh-launchpad
+
+# # Install Scott Stanfield's sensible, minimal .zshrc.
+# curl -o ~/.zshrc -L git.io/sensible-zshrc
 
 # Install the latest kitty binary.
 printf "\nInstalling kitty...\n"
@@ -37,3 +41,5 @@ rm -v CascadiaCode.zip
 # Install kitty configuration.
 printf "\nInstalling kitty configuration...\n"
 cp -rv config/kitty ~/.config
+
+printf "\ndaru installed.\n"
