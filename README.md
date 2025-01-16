@@ -6,7 +6,7 @@ The perfect terminal--not. It's a script to easily set up the [kitty](https://sw
 The above image shows [kami](https://github.com/elfry2/kami) running on daru.
 
 ## Installation
-DO NOT EXECUTE anything found on this page or anywhere unless you understand what it does and you are sure that it does only what you want it to do.
+DO NOT EXECUTE anything found on this page (or anywhere) unless you understand what it does and you are sure that it does only what you want it to do.
 
 To install daru, on most Linux distributions it should suffice to simply execute
 ```bash
