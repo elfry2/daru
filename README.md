@@ -1,5 +1,5 @@
 # daru
-A script to easily set up a terminal that aims to be at least better than the default.
+The perfect terminal--not. It's a script to easily set up the [kitty](https://sw.kovidgoyal.net/kitty/) + [zsh](https://www.zsh.org/) configuration I use.
 
 ![image](https://github.com/user-attachments/assets/d9d6613d-34f8-4d49-b67a-d9a113cfb567)
 
@@ -16,6 +16,6 @@ cd daru
 ```
 
 # Usage
-daru uses [kitty](https://sw.kovidgoyal.net/kitty/) as the terminal emulator. You are expected to have read the [kitty Overview](https://sw.kovidgoyal.net/kitty/overview/) before using it.
+daru uses kitty as the terminal emulator. You are expected to have read the [kitty Overview](https://sw.kovidgoyal.net/kitty/overview/) before using it.
 
 To use daru, launch kitty the way you'd launch any other app.
