@@ -6,8 +6,6 @@ A script to easily set up a terminal that aims to be at least better than the de
 The above image shows [kami](https://github.com/elfry2/kami) running on daru.
 
 ## Installation
-daru uses [kitty](https://sw.kovidgoyal.net/kitty/) as the terminal emulator. You are expected to have read the [kitty Overview](https://sw.kovidgoyal.net/kitty/overview/) before using it.
-
 DO NOT EXECUTE anything found on this page or anywhere unless you understand what it does and you are sure that it does only what you want it to do.
 
 To install daru, on most Linux distributions it should suffice to simply execute
@@ -18,4 +16,6 @@ cd daru
 ```
 
 # Usage
+daru uses [kitty](https://sw.kovidgoyal.net/kitty/) as the terminal emulator. You are expected to have read the [kitty Overview](https://sw.kovidgoyal.net/kitty/overview/) before using it.
+
 To use daru, launch kitty the way you'd launch any other app.
