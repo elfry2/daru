@@ -67,4 +67,11 @@ fi
 printf "\nInstalling kitty configuration...\n"
 cp -rv config/kitty ~/.config
 
+# Install Oh My Posh.
+if ! [[ $* == *--no-omp* ]] ; then
+  printf "\nInstalling Oh My Posh...\n"
+  curl -s https://ohmyposh.dev/install.sh | bash -s
+  cp 05-prompt.zsh $HOME/.config/zsh/rc.d/
+fi
+
 printf "\ndaru installed.\n"
